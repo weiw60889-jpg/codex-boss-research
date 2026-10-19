@@ -1,0 +1,28 @@
+# Local research output and raw observations
+work/
+outputs/
+data/
+exports/
+research.json
+research-log.jsonl
+boss-data.jsonl
+browser-data.json
+bridge-state.json
+*.pid
+*.log
+*.tmp
+*.xlsx
+*.xls
+*.csv
+*.jsonl
+# Credentials / local editor state
+.env
+.env.*
+!.env.example
+.codex/
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.DS_Store
+Thumbs.db

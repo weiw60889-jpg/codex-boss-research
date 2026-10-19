@@ -1,0 +1,19 @@
+{
+  "job_title": "产品经理",
+  "industry": "不限",
+  "cities": "自动筛选一线、新一线、二线城市",
+  "target_effective": 100,
+  "keywords": [
+    "产品经理",
+    "高级产品经理",
+    "产品负责人"
+  ],
+  "exclude_keywords": [],
+  "inclusion": "",
+  "exclusion": "",
+  "focus": "薪资、经验、技能、管理层次与外包驻场",
+  "deliverables": [
+    "xlsx",
+    "html"
+  ]
+}

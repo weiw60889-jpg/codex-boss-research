@@ -1,0 +1,9 @@
+﻿请帮我安装这个文件夹中的“BOSS 岗位研究”本地插件，先阅读 plugins/boss-research/skills/boss-research/SKILL.md 和 references/automatic.md。
+1. 先确认当前工作目录就是本安装包根目录，里面有 .agents、plugins、chrome-extension；检查 Codex 插件管理功能和 Python 3.10+，优先使用可用的本机或 Codex 自带 Python。不要一上来要求我安装一堆软件。
+2. 将当前文件夹作为本地插件市场，按当前客户端支持的方式安装 boss-research@boss-research-local。若 codex CLI 支持，可执行 codex plugin marketplace add . --json 和 codex plugin add boss-research@boss-research-local --json，再用 codex plugin list 核验。客户端不同导致命令不支持时，按官方本地市场安装方式指导，别编造按钮。
+3. 不覆盖我已有的插件配置，不删除其他插件。若插件界面不可用，可在本任务中直接读取上面的 SKILL.md 作为临时运行入口，明确这不等于已完成永久安装。
+4. 告诉我在日常使用的 Chrome 中打开 chrome://extensions，开启开发者模式，点击“加载未打包的扩展程序”（有的版本叫“加载已解压的扩展程序”），选择本安装包内 chrome-extension 文件夹。
+5. 请你在本任务 work/boss-bridge 目录后台启动 scripts/bridge.py 的本机连接服务（只监听127.0.0.1:19763），Windows后台进程使用隐藏窗口，向我提供本次新生成的六位连接码。已有服务先核对归属并复用，不终止未知进程，不显示长令牌或完整bridge-state.json。
+6. 让我在现有已登录的 BOSS 标签页，点“BOSS 岗位研究”扩展，输入连接码，点“连接并交给 Codex”。不要开新的 Chrome 窗口，不使用 Playwriter/CDP/debugger。
+7. 连接后先只读验证当前页面、城市关键词和一份完整JD的链接对应关系。登录/验证码由我手动处理，遇阻断暂停，不绕过。
+8. 安装与页面验证成功后告诉我结果，等我发送研究提示词再开展正式研究。不要把代码检查通过当作真实BOSS页面验证通过。
